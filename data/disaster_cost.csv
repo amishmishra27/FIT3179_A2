@@ -1,0 +1,187 @@
+Event,Zone,Region,Category,Start_Date,End_Date,Fatalities,Injured,Insured_Cost,latitude,longitude
+Black Summer - New South Wales,New South Wales,New South Wales,Bushfire,2019-07-01,2020-03-31,26,,188000,-31.8759835,147.2869493
+Black Summer - Queensland,Queensland,Queensland,Bushfire,2019-09-01,2019-12-31,,,7000,-22.1646782,144.5844903
+Black Summer - Victoria,Victoria,Victoria,Bushfire,2019-11-01,2020-02-29,5,,1860,-36.5986096,144.6780052
+Black Summer - South Australia,South Australia,South Australia,Bushfire,2019-11-01,2020-02-29,4,,18600,-30.5343665,135.6301212
+"Eastern Victorian bushfires, 2019",Victoria,East Victoria,Bushfire,2019-03-01,2019-03-21,,,3600,-38.0938176,145.2978015
+"Tathra bushfire, 2018",New South Wales,Tathra,Bushfire,2018-03-18,2018-03-21,,,6351.6711,-36.7284498,149.9850271
+"South-west complex fires, 2018",Victoria,South-west Victoria,Bushfire,2018-03-17,2018-05-02,,,1897.2524,-37.627159,142.179054
+Waroona-Yarloop Fire,Western australia,Waroona,Bushfire,2016-01-05,2016-01-08,2,,7100,-32.8492605,115.9082511
+Wye River - Jamieson track / Great Ocean Road Bushfire,Victoria,Wye River,Bushfire,2015-12-19,2016-01-21,,,12000,-42.0525162,147.9616106
+"Pinery fire, 2015",South Australia,Pinery,Bushfire,2015-11-25,2015-11-30,2,,6100,-34.3083225,138.4579755
+"Sampson Flat bushfire, 2015",South Australia,Sampson Flat,Bushfire,2015-01-02,2015-01-08,,134,2490,-34.7489957,138.791576
+"Bushfire � Perth Hills, Western Australia 2014",Western Australia,Perth,Bushfire,2014-01-12,2014-01-14,1,,1500,-31.9558933,115.8605855
+Bushfire - Victoria,Victoria,Grampians,Bushfire,2006-01-01,,4,6,2200,-37.3732495,142.2788917
+"Bushfire - Coonabarabran, 2013",New South Wales,Coonabarabran,Bushfire,2013-01-07,2013-01-20,A ,,3500,-31.2728076,149.2733225
+"Bushfire - Hazelwood open cut mine fire, Morwell",victoria,Morwell,Bushfire,2014-02-09,2014-03-25,,20,10000,-38.2362806,146.3977139
+"Dunalley and Tasmanian bushfires, 2013",Tasmania,Dunalley,Bushfire,2013-01-01,2013-01-14,1,,8900,-42.8898228,147.8045263
+Bushfire - Augusta - Margaret River,Western Australia,Bunbury,Bushfire,2011-11-23,2011-12-06,,,5300,-33.3267797,115.636698
+Bushfire - Perth Hill Bushfires,Western Australia,Perth,Bushfire,2011-02-05,2011-02-07,,12,3500,-31.9558933,115.8605855
+"Bushfire - Black Saturday, Victoria",Victoria,Victoria,Bushfire,2009-02-07,2009-02-08,173,414,107000,-36.5986096,144.6780052
+Bushfire - Victoria,Victoria,Mount Gambier (VIC),Bushfire,2005-12-31,2006-01-31,4,6,2240,-37.5884941,141.3905057
+Bushfire - Eyre Peninsula,South Australia,Adelaide,Bushfire,2005-01-10,2005-01-12,9,110,2770,-34.9281805,138.5999312
+"Bushfire - North-Eastern Victoria, Alpine Region",Victoria,Cooma (VIC),Bushfire,2003-01-08,2003-03-19,,,1200,-36.409381,145.0728646
+Bushfire - Sydney,New South Wales,Sydney,Bushfire,2002-10-09,2002-10-09,,,2500,-33.8698439,151.2082848
+Bushfire - Black Christmas,"New South Wales , Australian Capital Territory",Sydney,Bushfire,2001-12-24,2002-01-11,,,6900,-33.8698439,151.2082848
+Bushfire - Kangaroo Island,South Australia,Kangaroo Island,Bushfire,2007-12-06,,1,,1790,-35.8182635,137.1566125
+Bushfire - Dandenong Ranges and Mornington Peninsula,Victoria,Wilsons Promontory,Bushfire,1997-01-19,1997-01-21,3,40,2900,-38.9567021,146.3514784
+Bushfire - East Coast,Queensland,Brisbane,Bushfire,1994-09-27,1994-11-07,,9,5910,-27.4689682,153.0234991
+"Bushfire - North Coast, Hunter and Sydney",New South Wales,Dubbo,Bushfire,1993-12-27,1994-01-16,4,,5900,-32.2478964,148.6026502
+Bushfire - Western Sydney and Central Coast,New South Wales,Sydney,Bushfire,1991-10-16,1992-01-31,2,,1200,-33.8698439,151.2082848
+Bushfire - North-Western Regions ,New South Wales,Bourke,Bushfire,1984-09-01,1985-02-01,4,,2500,-30.0914494,145.9429902
+Bushfire - Ash Wednesday,"Victoria , South Australia",Wilsons Promontory,Bushfire,1983-02-16,1983-02-18,75,1500,17600,-38.9567021,146.3514784
+Bushfire - Mount Lofty Ranges,South Australia,Adelaide,Bushfire,1980-02-20,1980-02-20,,,1300,-34.9281805,138.5999312
+Bushfire - Western Districts and Streatham ,Victoria,Melbourne,Bushfire,1977-02-12,1977-02-12,4,,900,-37.8142454,144.9631732
+Bushfire - Blue Mountains and Illawarra,New South Wales,Sydney,Bushfire,1968-10-15,1968-12-03,14,,150,-33.8698439,151.2082848
+Bushfire - Black Tuesday Tasmania,Tasmania,Hobart,Bushfire,1967-02-07,1967-02-07,62,,1400,-42.8825088,147.3281233
+Bushfire - Blue Mountains and Sydney Region,New South Wales,Sydney,Bushfire,1957-11-30,1957-12-04,4,,100,-33.8698439,151.2082848
+Cyclone Veronica,Western Australia,Port Hedland,Cyclone,2019-03-20,,,,2670,-20.3111814,118.5801181
+Cyclone Marcus,Northern Territory,Darwin,Cyclone,2018-03-15,,,,7500,-12.46044,130.8410469
+Cyclone Debbie,Queensland,Airlie Beach,Cyclone,2017-03-28,2017-03-31,10,,178159.9484,-20.272494,148.7181466
+Cyclone Marcia,Queensland,Shoalwater Bay,Cyclone,2015-02-15,2015-02-26,,,40400,-22.39281,150.41159
+Cyclone Oswald,Queensland,Cape York Peninsula,Cyclone,2013-01-21,,6,,110000,-14.77330565,143.2895623
+Cyclone Yasi,Queensland,Ayr ,Cyclone,2011-02-02,2011-02-03,1,,140500,-19.567473,147.410345
+Cyclone George,Western Australia,Port Hedland,Cyclone,2007-03-03,2007-03-08,3,20,800,-20.3111814,118.5801181
+Cyclone Larry,Queensland,Cairns,Cyclone,2006-03-20,2006-03-20,,30,54000,-16.9206657,145.7721854
+Cyclone Tessi,Queensland,Townsville,Cyclone,2000-04-02,2000-04-04,,,1500,-19.2569391,146.8239537
+Cyclone Steve,Queensland,Cairns,Cyclone,2000-02-27,2000-03-09,1,,1100,-16.9206657,145.7721854
+Cyclone Vance,Western Australia,Dampier,Cyclone,1999-03-18,1999-03-24,,,3500,-20.6624798,116.7119013
+Cyclone Bobby,Western Australia,Dampier,Cyclone,1995-02-24,1995-02-27,8,,1100,-20.6624798,116.7119013
+Cyclone Nancy,Queensland,Brisbane,Cyclone,1990-02-03,1990-02-07,6,,3300,-27.4689682,153.0234991
+Cyclone Aivu,"Queensland , New South Wales",Brisbane,Cyclone,1989-04-04,1989-04-20,3,,2600,-27.4689682,153.0234991
+Cyclone Herbie,Western Australia,Dampier,Cyclone,1988-05-21,1988-05-22,,,2000,-20.6624798,116.7119013
+Cyclone Winifred,Queensland,Cairns,Cyclone,1986-01-27,1986-02-05,3,,4000,-16.9206657,145.7721854
+Cyclone Hazel,Western Australia,Carnarvon,Cyclone,1979-03-01,1979-03-01,15,5,1500,-24.866415,113.679255
+Cyclone Alby,Western Australia,Perth,Cyclone,1978-03-27,1978-04-04,5,,1300,-31.9558933,115.8605855
+Cyclone Joan,Western Australia,Port Hedland,Cyclone,1975-12-08,1975-12-09,,,2000,-20.3111814,118.5801181
+Cyclone Tracy,Northern Territory,Darwin,Cyclone,1974-12-25,1974-12-25,71,650,20000,-12.46044,130.8410469
+Cyclone Althea,Queensland,Townsville,Cyclone,1971-12-24,1971-12-27,3,25,2500,-19.2569391,146.8239537
+Cyclone Ada,Queensland,Mackay,Cyclone,1970-01-17,1970-01-19,14,,1200,-21.141956,149.1865149
+Cyclone - Rockhampton,Queensland,Bundaberg Rockhampton,Cyclone,1949-03-02,1949-03-03,4,,35,-23.353276,150.515101
+"Earthquake – Hunter Valley, Ellalong and Cessnock",New South Wales,Sydney,Earthquake,1994-08-06,1994-08-06,,,3720,-33.8698439,151.2082848
+Earthquake - Newcastle,New South Wales,Sydney,Earthquake,1989-12-28,1989-12-29,13,160,86200,-33.8698439,151.2082848
+Earthquake - Meckering and Region,Western Australia,Merredin,Earthquake,1968-10-14,1968-10-14,,20,150,-31.4813329,118.2779117
+Earthquake - Victoria ,Victoria,Alpine National Park,Earthquake,2021-09-22,2021-09-22,,,11053.3377,-37.02981835,147.0611496
+Environment - Drought,New South Wales,New South Wales,Environment,2012-04-01,2014-01-31,,,36400,-31.8759835,147.2869493
+Environment - Central Wheatbelt Western Australia,Western Australia,Merredin,Environment,1998-09-19,1998-09-23,,,9800,-31.4813329,118.2779117
+South-east Queensland Heavy rainfall and floods,Queensland,Queensland,Flood,2020-02-08,2020-02-14,1,,89600,-22.1646782,144.5844903
+Flood - Hobart flash flooding,Tasmania,Hobart,Flood,2018-05-10,2018-05-10,,,13700,-42.8825088,147.3281233
+"Flood - Tasmania, 2016",Tasmania,Mersey,Flood,2016-06-01,2016-07-31,3,,18000,-41.42483,146.435882
+Flood - Victoria,Victoria,Cooma (VIC),Flood,2012-02-26,2012-03-15,,,10821.2,-36.409381,145.0728646
+Flood - New South Wales,New South Wales,Bourke ,Flood,2012-01-24,2012-03-13,3,,10821.2,-30.0914494,145.9429902
+Flood - Queensland,Queensland,Cairns ,Flood,2012-01-24,2012-03-13,1,,12468.8,-16.9206657,145.7721854
+Flood - Victoria ,Victoria,Mount Gambier (VIC) ,Flood,2011-01-12,2011-01-18,,,12246.5,-37.5884941,141.3905057
+"Flood - Warum, Kimberly",Western Australia,Kimberly,Flood,2011-03-10,2011-03-14,,,1750,-17.348881,125.896793
+Flood - Queensland,Queensland,Brisbane,Flood,2010-11-30,2011-01-17,33,,238000,-27.4689682,153.0234991
+Flood - Gascoyne river,Western Australia,Gascoyne River,Flood,2010-12-16,2010-12-18,,,9000,-24.9635141,115.8887029
+Flood - Queensland ,Queensland,Blackall ,Flood,2010-02-28,2010-03-05,,,4670,-24.4231685,145.4648487
+Flood - Northern New South Wales,New South Wales,Lismore (NSW),Flood,2009-05-20,2009-05-23,1,,4800,-28.7936072,153.2671259
+Flood - Mid and North Coast ,New South Wales,Tamworth,Flood,2009-03-31,2009-04-02,,,3700,-31.0900743,150.9290159
+Flood - North Queensland,Queensland,Cairns ,Flood,2009-01-31,2009-02-07,1,,1900,-16.9206657,145.7721854
+Flood - North Queensland ,Queensland,Cairns ,Flood,2009-01-12,2009-02-14,,,1900,-16.9206657,145.7721854
+Flood - Mackay,Queensland,Blackall ,Flood,2008-02-14,2008-02-17,,,41000,-24.4231685,145.4648487
+Flood - North Coast New South Wales ,New South Wales,Lismore (NSW),Flood,2008-01-04,2008-01-11,,,1500,-28.7936072,153.2671259
+Flood - Queensland,Queensland,Ayr ,Flood,2008-01-01,2008-01-31,,,7000,-19.566445,147.406191
+Flood - South East Queensland ,Queensland,Brisbane ,Flood,2007-12-27,2008-01-07,,,1500,-27.4689682,153.0234991
+Flood - Gippsland,Victoria,Cooma (VIC) ,Flood,2007-06-27,2007-07-02,1,,1500,-36.409381,145.0728646
+Flood - Gawler river,South Australia,Gawler River,flood,2005-11-08,,,,4000,-34.6335654,138.601402
+Flood - North East New South Wales,New South Wales,Lismore (NSW),Flood,2005-06-29,2005-06-30,1,,2500,-28.7936072,153.2671259
+Flood - South East Queensland,Queensland,Lismore (QLD),Flood,2005-06-29,2005-06-30,2,,5390,-27.9078296,153.3355448
+"Flood - Brisbane, Sunshine Coast, and Gold Coast",Queensland,Brisbane,Flood,2001-03-09,2001-03-11,2,,3700,-27.4689682,153.0234991
+"Flood - Grafton, Kempsey and North Coast New South Wales ",New South Wales,Lismore (NSW) ,Flood,2001-03-05,2001-03-12,,,2500,-28.7936072,153.2671259
+Flood - North and Central Queensland,Queensland,Cairns ,Flood,2000-02-05,2000-02-28,,10,1200,-16.9206657,145.7721854
+Flood - Melbourne and Central Victoria,Victoria,Melbourne,Flood,1999-12-26,1999-12-28,,,1000,-37.8142454,144.9631732
+Flood - Sydney and Wollongong,New South Wales,Sydney ,Flood,1998-08-17,1998-08-19,1,,4000,-33.8698439,151.2082848
+Flood - Katherine Floods,Northern Territory,Katherine,Flood,1998-01-25,1998-02-02,3,30,7000,-14.4646157,132.2635993
+Flood - Townsville,Queensland,Cairns ,Flood,1998-01-10,1998-01-12,1,,7100,-16.9206657,145.7721854
+Flood - Southern Queensland and Northern New South Wales,"Queensland , New South Wales",Brisbane ,Flood,1996-05-01,1996-05-09,5,20,3100,-27.4689682,153.0234991
+Flood - North-Eastern Victoria,Victoria,Melbourne,Flood,1993-10-03,1993-10-04,,,1200,-37.8142454,144.9631732
+"Flood - Gnarr Creek, Ballarat",Victoria,Melbourne,Flood,1991-12-16,1991-12-18,,,2400,-37.8142454,144.9631732
+Flood - Gulf Country ,Queensland,Cairns ,Flood,1990-12-23,1991-01-07,6,,3200,-16.9206657,145.7721854
+"Flood - Queensland - Charleville, New South Wales - Nyngan, Victoria - Gippsland",National,Brisbane ,Flood,1990-04-18,1990-04-30,6,60,3000,-27.4689682,153.0234991
+Flood - Lismore,New South Wales,Lismore (NSW),Flood,1988-04-07,1988-04-12,,,2500,-28.7936072,153.2671259
+Flood - Alice Springs and Central NT,Northern Territory,Alice Springs,Flood,1988-03-31,1988-04-02,3,,1000,-23.6983884,133.8812885
+Flood - Sydney,New South Wales,Sydney,Flood,1986-08-04,1986-08-06,6,,3500,-33.8698439,151.2082848
+Flood - Sydney,New South Wales,Sydney,Flood,1984-11-08,1984-11-08,,,8000,-33.8698439,151.2082848
+Flood - Dalby,Queensland,Brisbane,Flood,1981-02-01,1981-02-01,1,5,2000,-27.4689682,153.0234991
+"Flood - Sydney, Newcastle and Wollongong",New South Wales,Sydney,Flood,1978-02-10,1978-02-10,6,,1500,-33.8698439,151.2082848
+Flood - Sydney,New South Wales,Sydney,Flood,1975-03-09,1975-03-09,,,1500,-33.8698439,151.2082848
+Flood - Western Sydney,New South Wales,Sydney,Flood,1974-04-24,1974-04-24,1,,2000,-33.8698439,151.2082848
+Flood - Brisbane River,Queensland,Brisbane,Flood,1974-01-25,1974-01-29,13,300,6800,-27.4689682,153.0234991
+Flood - Eastern Australia,"Queensland , New South Wales , South Australia , Tasmania , Victoria",Brisbane ,Flood,1974-01-25,1974-04-01,14,,6800,-27.4689682,153.0234991
+"Flood - Queensland, Northern Territory and Western Australia",Queensland,Birdsville ,Flood,1973-03-02,1973-03-30,,,3000,-25.8980596,139.3523124
+Flood - Burdekin River,Queensland,Ayr ,Flood,1940-04-07,1940-04-09,3,,100,-19.765115,145.994395
+Flood - Geelong,Victoria,Geelong,Flood,2015-01-27,2015-01-27,,,1170,-38.1493248,144.3598241
+Industrial - Savage River Mine Fire,Tasmania,Savage River,Industrial,2006-06-21,,,,1000,-41.502208,145.233997
+Industrial - Bellevue Hazardous Waste Fire,Western Australia,Perth,Industrial,2001-02-15,2001-02-17,,130,560,-31.9558933,115.8605855
+Industrial - Coode Island,Victoria,Melbourne,Industrial,1991-07-21,,2,,2100,-37.8142454,144.9631732
+Industrial - Varanus Island Gas Explosion,Western Australia,Dampier,Industrial,2008-06-03,2008-06-03,,,23000,-20.6624798,116.7119013
+"Hail - North Sydney hailstorm, 2017",New South Wales,North sydney,Storm,2017-02-18,2017-02-18,,3,32800,-33.8354519,151.2083011
+Hail - Sydney,New South Wales,Sydney,Storm,2007-12-09,2007-12-09,,30,41500,-33.8698439,151.2082848
+Hail - Lismore,New South Wales,Lismore (NSW),Storm,2007-10-08,2007-10-09,,17,9700,-28.7936072,153.2671259
+Hail - Hunter Valley,New South Wales,Sydney,Storm,2006-10-31,2006-10-31,,,3100,-33.8698439,151.2082848
+Hail - Sydney Hailstorm,New South Wales,Sydney,Storm,2015-04-25,2015-04-25,,,47081.9649,-33.8698439,151.2082848
+Hail - Lake Grace,Western Australia,Bunbury,Storm,2005-10-16,2005-10-16,,,1000,-33.3267797,115.636698
+Storm - Severe storm Sydney,New South Wales,Sydney,Storm,2015-12-16,,,,22000,-33.8698439,151.2082848
+Hail - Gold Coast ,Queensland,Brisbane,Storm,2005-10-12,2005-10-12,,,6100,-27.4689682,153.0234991
+Hail - Brisbane,Queensland,Brisbane,Storm,2005-05-19,2005-05-19,,,1760,-27.4689682,153.0234991
+Hail - South East Queensland,Queensland,Brisbane ,Storm,2004-01-24,2004-01-31,1,3,2850,-27.4689682,153.0234991
+Hail - Sydney,New South Wales,Sydney,Storm,1999-04-14,1999-04-14,1,50,170000,-33.8698439,151.2082848
+Hail - Brisbane and Region,Queensland,Brisbane,Storm,1998-12-16,1998-12-16,,,7600,-27.4689682,153.0234991
+Hail - Singleton,New South Wales,Sydney,Storm,1996-12-11,1996-12-11,,,4900,-33.8698439,151.2082848
+Hail - Armidale and Tamworth,New South Wales,Tamworth,Storm,1996-09-29,1996-09-29,,10,10400,-31.0900743,150.9290159
+Hail - Brisbane and South East Queensland,Queensland,Brisbane,Storm,1995-11-03,1995-11-06,1,,4000,-27.4689682,153.0234991
+Hail - Adelaide,South Australia,Adelaide,Storm,1991-01-22,1991-01-22,,,3000,-34.9281805,138.5999312
+Hail - Western Sydney,New South Wales,Sydney,Storm,1990-03-18,1990-03-18,,25,31900,-33.8698439,151.2082848
+Hail - Western Sydney,New South Wales,Sydney,Storm,1986-10-03,1986-10-03,,10,10400,-33.8698439,151.2082848
+Hail - Orange,New South Wales,Dubbo,Storm,1986-01-21,1986-01-21,,,2500,-32.2478964,148.6026502
+Hail - Brighton ,Queensland,Brisbane,Storm,1980-12-16,1980-12-16,,,1500,-27.4689682,153.0234991
+Hail - Port Broughton,South Australia,Whyalla,Storm,1979-11-14,1979-11-14,,71,1000,-33.0382085,137.5843572
+Hail - Toowoomba,Queensland,Brisbane,Storm,1976-01-09,1976-01-09,,,1200,-27.4689682,153.0234991
+Severe Storm - Melbourne,Victoria,Melbourne,Storm,2011-12-25,2011-12-26,,,68070,-37.8142454,144.9631732
+"Severe Storm - Melbourne, Victoria",Victoria,Melbourne,Storm,2011-02-04,2011-02-06,,1,41867,-37.8142454,144.9631732
+Severe Storm - Perth,Western Australia,Perth,Storm,2010-03-22,2010-03-22,,,105300,-31.9558933,115.8605855
+"Severe Storm - Melbourne, Victoria",Victoria,Melbourne,Storm,2010-03-06,2010-03-07,,,104400,-37.8142454,144.9631732
+Severe Storm - South East Queensland,Queensland,Brisbane,Storm,2008-11-16,2008-11-22,1,,30900,-27.4689682,153.0234991
+Severe Storm - Southern States Windstorms,"South Australia , Tasmania , Victoria",Adelaide ,Storm,2008-04-02,2008-04-02,2,,6500,-34.9281805,138.5999312
+Severe Storm - South East Queensland and Northern New South Wales,Queensland,Brisbane ,Storm,2007-10-07,2007-10-12,,,9700,-27.4689682,153.0234991
+Severe Storm - New South Wales East Coast Low,New South Wales,Sydney,Storm,2007-06-08,2007-06-10,9,,148000,-33.8698439,151.2082848
+Severe Storm - Northern New South Wales,New South Wales,Lismore (NSW),Storm,2005-06-30,2005-06-30,1,,2500,-28.7936072,153.2671259
+Severe Storm - Bunbury and South Perth,Western Australia,Bunbury ,Storm,2005-05-16,2005-05-16,,,5320,-33.3267797,115.636698
+"Severe Storm - New South Wales, Victoria, Australian Capital Territory, Tasmania and South Australia","New South Wales , Australian Capital Territory , Victoria , South Australia",Sydney ,Storm,2005-02-01,2005-02-03,,,21670,-33.8698439,151.2082848
+Severe Storm - South Eastern Australia,"New South Wales , Australian Capital Territory , Victoria , Tasmania",Sydney ,Storm,2003-08-24,2003-08-24,1,4,2500,-33.8698439,151.2082848
+Severe Storm - Sydney,New South Wales,Sydney,Storm,2002-02-16,2002-02-16,,,1000,-33.8698439,151.2082848
+"Severe Storm - Grafton, Kingscliff and Lismore",New South Wales,Lismore (NSW),Storm,2002-01-16,2002-01-16,,,1000,-28.7936072,153.2671259
+"Severe Storm - Sydney, Hunter Valley and Northern Regions",New South Wales,Sydney ,Storm,2001-12-03,2001-12-03,2,,3000,-33.8698439,151.2082848
+Severe Storm - Eastern New South Wales,New South Wales,Sydney,Storm,2001-11-18,2001-11-21,3,,3000,-33.8698439,151.2082848
+Severe Storm - Casino and Region,New South Wales,Lismore (NSW),Storm,2001-01-17,2001-01-17,,,3500,-28.7936072,153.2671259
+Severe Storm - Sydney and Region,New South Wales,Sydney ,Storm,2001-01-15,2001-01-15,,,1200,-33.8698439,151.2082848
+Severe Storm - Dubbo,New South Wales,Dubbo,Storm,2001-01-06,2001-01-06,,,1500,-32.2478964,148.6026502
+"Severe Storm - Sydney, Wollongong and South Coast ",New South Wales,Sydney ,Storm,1999-10-24,1999-10-24,,,4500,-33.8698439,151.2082848
+Severe Storm - Warwick ,Queensland,Brisbane ,Storm,1998-10-13,1998-10-13,,,2300,-27.4689682,153.0234991
+"Severe Storm - Hunter Valley, Tablelands and Southern Highlands",New South Wales,Sydney ,Storm,1998-06-23,1998-06-24,1,,1200,-33.8698439,151.2082848
+Severe Storm - Sydney,New South Wales,Sydney,Storm,1998-04-09,1998-04-10,1,,1000,-33.8698439,151.2082848
+Severe Storm - Sydney and Regions,New South Wales,Dubbo ,Storm,1998-02-04,1998-02-04,,1,1200,-32.2478964,148.6026502
+Severe Storm - Nyngan,New South Wales,Bourke,Storm,1998-01-05,1998-01-05,,1,1200,-30.0914494,145.9429902
+Severe Storm - Coffs Harbour,New South Wales,Tamworth,Storm,1996-11-23,1996-11-23,1,,2000,-31.0900743,150.9290159
+Storm - Queensland Floods and Storms,Queensland,Central and South East Queensland,Storm,2020-10-31,2020-10-31,,,95700,-25.595817,148.038783
+Severe Storm - New England and Hunter Valley,New South Wales,Sydney ,Storm,1996-11-17,1996-11-17,1,,1000,-33.8698439,151.2082848
+Severe Storm - Illawarra and Sydney,New South Wales,Sydney ,Storm,1996-08-31,1996-08-31,,,1000,-33.8698439,151.2082848
+Severe Storm - Hunter Valley and Mid North Coast,New South Wales,Sydney,Storm,1995-11-30,1995-11-30,,,1000,-33.8698439,151.2082848
+Severe Storm - Sydney and Blue Mountains ,New South Wales,Sydney,Storm,1994-11-20,1994-11-20,2,2,2900,-33.8698439,151.2082848
+"Severe Storm - Perth, Mandurah and South-West Coast",Western Australia,Bunbury ,Storm,1994-05-23,1994-05-24,,,3700,-33.3267797,115.636698
+Severe Storm - Sydney,New South Wales,Sydney,Storm,1992-02-12,1992-02-13,,1,11800,-33.8698439,151.2082848
+Severe Storm - Orbost,Victoria,Cooma (VIC),Storm,1991-01-24,1991-01-24,,,1200,-36.409381,145.0728646
+Severe Storm - Sydney,New South Wales,Sydney,Storm,1991-01-21,1991-01-21,1,100,13840,-33.8698439,151.2082848
+Severe Storm - Ballarat,Victoria,Melbourne,Storm,1989-11-16,1989-11-16,,,2000,-37.8142454,144.9631732
+Severe Storm - Adelaide,South Australia,Adelaide,Storm,1986-12-06,1986-12-08,,,1000,-34.9281805,138.5999312
+"Severe Storm - Newcastle, Sydney, Wollongong",New South Wales,Sydney ,Storm,1978-02-10,1978-02-11,,8,1500,-33.8698439,151.2082848
+Severe Storm - Sydney,New South Wales,Sydney,Storm,1977-01-21,1977-01-21,1,,1500,-33.8698439,151.2082848
+Severe Storm - Western Sydney,New South Wales,Sydney,Storm,1976-11-09,1976-11-09,,10,73200,-33.8698439,151.2082848
+Storm - Brisbane,Queensland,Brisbane,Storm,2014-11-27,2014-11-27,,,104000,-27.4689682,153.0234991
+Storm - Sydney Hailstorm,New South Wales,Sydney,Storm,1999-04-14,1999-04-14,1,50,170000,-33.8698439,151.2082848
+Maritime/Coastal - Sydney to Hobart Yacht Race ,Victoria,Bass Strait,Maritime/Coastal,1998-12-26,1998-12-30,6,70,500,-39.4730144,145.2623668
+Tornado - Kin Kin,Queensland,Brisbane,Tornado,1971-08-14,1971-08-14,3,,2035.3129,-27.4689682,153.0234991
+Transport - Merredin Rail Collision,Western Australia,Merredin,Transport,1996-01-13,1996-01-13,2,1,1000,-31.4813329,118.2779117
+Urban Fire - Melbourne Warehouse,Victoria,Melbourne,Urban Fire,2004-11-12,2004-11-12,,,2000,-37.8142454,144.9631732
+"Urban Fire - Mitcham Shopping Centre, Adelaide",South Australia,Adelaide,Urban Fire,2004-08-22,2004-08-22,,,2500,-34.9281805,138.5999312

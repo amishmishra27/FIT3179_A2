@@ -1,0 +1,59 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Cost Impact of Natural Disasters in Australia",
+    "width": 500,
+    "height": 500,
+    "data": {
+      "url": "aus_boundaries.topojson",
+      "format": {"type": "topojson", "feature": "STE_2021_AUST_GDA2020"}
+    },
+    "projection": {"type": "mercator"},
+    "layer":[
+      {
+        "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+      },
+      {
+        "data": {
+          "url": "aus_boundaries.topojson",
+          "format": {"type": "topojson", "feature": "ne_110m_graticules_10"}
+        },
+        "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+      },
+      {
+        "data": {
+            "url": "../data/disaster_cost2.csv"
+        },
+        "mark": {"type": "circle", "opacity": 0.87},
+        "encoding": {
+            "longitude": {"field": "longitude", "type": "quantitative"},
+            "latitude": {"field": "latitude", "type": "quantitative"},
+            "size": {
+                "field": "Fatalities",
+                "type": "quantitative",
+                "title": ["Deaths"],
+                "scale": {"range": [100,2000]}
+            },
+            "color": {
+              "field": "Injured",
+              "type": "quantitative",
+              "title": "Injured",
+              "scale": {
+                "type": "quantize",
+                "domain": [0,1000],
+                "scheme": "reds"
+              }
+            },
+          "tooltip": [
+            {"field": "Event", "type": "nominal", "title": "Event"},
+            {"field": "Region", "type": "nominal", "title": "Region"},
+            {"field": "Category", "type": "nominal", "title": "Category"},
+            {"field": "Start_Date", "type": "temporal", "title": "Start Date"},
+            {"field": "End_Date", "type": "temporal", "title": "End Date"},
+            {"field": "Injured", "type": "quantitative", "title": "Injured", "format": ",.0f"},
+            {"field": "Fatalities", "type": "quantitative", "title": "Deaths", "format": ",.0f"}
+
+          ]
+        }
+      }
+    ] 
+  }
