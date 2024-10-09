@@ -27,7 +27,7 @@ body {
 .page {
     box-sizing: border-box; /* Ensures padding is included in the height */
     width: 1050px;
-    height: 2350px;
+    height: 2430px;
     background-color: white;
     margin: auto;
     padding: 50px;
@@ -64,8 +64,4 @@ body {
 
 .small-font {
     font-size: 14px;
-}
-
-.bottom {
-	margin-top: -80px;
 }
