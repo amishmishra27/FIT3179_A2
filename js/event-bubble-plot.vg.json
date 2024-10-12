@@ -6,7 +6,7 @@
     "url": "https://raw.githubusercontent.com/amishmishra27/FIT3179_W10_HW/refs/heads/main/Data/Events.csv"
   },
   "width": 700,
-  "height": "container",
+  "height": 700,
   "transform": [
     {
       "filter": "datum.Injured > 0"

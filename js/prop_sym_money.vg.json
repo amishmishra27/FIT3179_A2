@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/amishmishra27/FIT3179_A2/refs/heads/main/data/disaster_cost2.csv"
+    "url": "https://raw.githubusercontent.com/amishmishra27/FIT3179_A2/refs/heads/main/data/disaster_cost.csv"
   },
   "padding": { "left": 0, "right": 0, "top": 0, "bottom": 0},
 
@@ -34,20 +34,10 @@
             "longitude": {"field": "longitude", "type": "quantitative"},
             "latitude": {"field": "latitude", "type": "quantitative"},
             "size": {
-                "field": "Fatalities",
+                "field": "Insured_Cost",
                 "type": "quantitative",
-                "title": ["Deaths"],
-                "scale": {"range": [100,2000]}
-            },
-            "color": {
-              "field": "Injured",
-              "type": "quantitative",
-              "title": "Injured",
-              "scale": {
-                "type": "quantize",
-                "domain": [0,1000],
-                "scheme": "reds"
-              }
+                "title": ["Cost of Damage", "($10,000)"],
+                "scale": {"domain": [0,10000,50000,100000,200000], "range": [100,200,500,800]}
             },
           "tooltip": [
             {"field": "Event", "type": "nominal", "title": "Event"},
@@ -55,13 +45,11 @@
             {"field": "Category", "type": "nominal", "title": "Category"},
             {"field": "Start_Date", "type": "temporal", "title": "Start Date"},
             {"field": "End_Date", "type": "temporal", "title": "End Date"},
-            {"field": "Injured", "type": "quantitative", "title": "Injured", "format": ",.0f"},
-            {"field": "Fatalities", "type": "quantitative", "title": "Deaths", "format": ",.0f"}
-
+            {"field": "Insured_Cost", "type": "quantitative", "title": "Cost of Damage", "format": ",.0f"}
           ]
         },
         "layer": [
-          {"mark": {"type": "circle", "opacity": 0.87}}
+          {"mark": {"type": "circle", "opacity": 0.80, "stroke": "black", "strokeWidth": 0.8, "strokeOpacity": 0.3, "color": "#fb6a4a"}}
         ]
         }
       ]
@@ -89,7 +77,7 @@
         "y": {
           "aggregate": "count",
           "axis": {"tickCount": 3, "grid": false},
-          "title": "Count"
+          "title": "Events"
         }
       }
     }
