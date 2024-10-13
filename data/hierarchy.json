@@ -1,0 +1,531 @@
+[
+  {
+    "id": 1,
+    "name": "Disasters"   
+  },
+  {
+    "id": 2,
+    "name": "Natural",
+    "parent": 1
+  },
+  {
+    "id": 3,
+    "name": "Biological",
+    "parent": 2
+  },
+  {
+    "id": 4,
+    "name": "Animal incident",
+    "parent": 3
+  },
+  {
+    "id": 5,
+    "name": "Animal incident",
+    "parent": 4
+  },
+  {
+    "id": 6,
+    "name": "Epidemic",
+    "parent": 3
+  },
+  {
+    "id": 7,
+    "name": "Bacterial disease",
+    "parent": 6
+  },
+  {
+    "id": 8,
+    "name": "Infectious disease (General)",
+    "parent": 6
+  },
+  {
+    "id": 9,
+    "name": "Parasitic disease",
+    "parent": 6
+  },
+  {
+    "id": 10,
+    "name": "Viral disease",
+    "parent": 6
+  },
+  {
+    "id": 11,
+    "name": "Infestation",
+    "parent": 3
+  },
+  {
+    "id": 12,
+    "name": "Locust infestation",
+    "parent": 11
+  },
+  {
+    "id": 13,
+    "name": "Worms infestation",
+    "parent": 11
+  },
+  {
+    "id": 14,
+    "name": "Climatological",
+    "parent": 2
+  },
+  {
+    "id": 15,
+    "name": "Drought",
+    "parent": 14
+  },
+  {
+    "id": 16,
+    "name": "Drought",
+    "parent": 15
+  },
+  {
+    "id": 17,
+    "name": "Glacial lake outburst flood",
+    "parent": 14
+  },
+  {
+    "id": 18,
+    "name": "Glacial lake outburst flood",
+    "parent": 17
+  },
+  {
+    "id": 19,
+    "name": "Wildfire",
+    "parent": 14
+  },
+  {
+    "id": 20,
+    "name": "Forest fire",
+    "parent": 19
+  },
+  {
+    "id": 21,
+    "name": "Land fire (Brush, Bush, Pasture)",
+    "parent": 19
+  },
+  {
+    "id": 22,
+    "name": "Wildfire (General)",
+    "parent": 19
+  },
+  {
+    "id": 23,
+    "name": "Extra-terrestrial",
+    "parent": 2
+  },
+  {
+    "id": 24,
+    "name": "Impact",
+    "parent": 23
+  },
+  {
+    "id": 25,
+    "name": "Collision",
+    "parent": 24
+  },
+  {
+    "id": 26,
+    "name": "Geophysical",
+    "parent": 2
+  },
+  {
+    "id": 27,
+    "name": "Earthquake",
+    "parent": 26
+  },
+  {
+    "id": 28,
+    "name": "Ground movement",
+    "parent": 27
+  },
+  {
+    "id": 29,
+    "name": "Tsunami",
+    "parent": 27
+  },
+  {
+    "id": 30,
+    "name": "Mass movement (dry)",
+    "parent": 26
+  },
+  {
+    "id": 31,
+    "name": "Avalanche (dry)",
+    "parent": 30
+  },
+  {
+    "id": 32,
+    "name": "Landslide (dry)",
+    "parent": 30
+  },
+  {
+    "id": 33,
+    "name": "Rockfall (dry)",
+    "parent": 30
+  },
+  {
+    "id": 34,
+    "name": "Volcanic activity",
+    "parent": 26
+  },
+  {
+    "id": 35,
+    "name": "Ash fall",
+    "parent": 34
+  },
+  {
+    "id": 36,
+    "name": "Lahar",
+    "parent": 34
+  },
+  {
+    "id": 37,
+    "name": "Lava flow",
+    "parent": 34
+  },
+  {
+    "id": 38,
+    "name": "Pyroclastic flow",
+    "parent": 34
+  },
+  {
+    "id": 39,
+    "name": "Volcanic activity (General)",
+    "parent": 34
+  },
+  {
+    "id": 40,
+    "name": "Hydrological",
+    "parent": 2
+  },
+  {
+    "id": 41,
+    "name": "Flood",
+    "parent": 40
+  },
+  {
+    "id": 42,
+    "name": "Coastal flood",
+    "parent": 41
+  },
+  {
+    "id": 43,
+    "name": "Flash flood",
+    "parent": 41
+  },
+  {
+    "id": 44,
+    "name": "Flood (General)",
+    "parent": 41
+  },
+  {
+    "id": 45,
+    "name": "Riverine flood",
+    "parent": 41
+  },
+  {
+    "id": 46,
+    "name": "Mass movement (wet)",
+    "parent": 40
+  },
+  {
+    "id": 47,
+    "name": "Avalanche (wet)",
+    "parent": 46
+  },
+  {
+    "id": 48,
+    "name": "Landslide (wet)",
+    "parent": 46
+  },
+  {
+    "id": 49,
+    "name": "Mudslide",
+    "parent": 46
+  },
+  {
+    "id": 50,
+    "name": "Rockfall (wet)",
+    "parent": 46
+  },
+  {
+    "id": 51,
+    "name": "Sudden Subsidence (wet)",
+    "parent": 46
+  },
+  {
+    "id": 52,
+    "name": "Meteorological",
+    "parent": 2
+  },
+  {
+    "id": 53,
+    "name": "Extreme temperature",
+    "parent": 52
+  },
+  {
+    "id": 54,
+    "name": "Cold wave",
+    "parent": 53
+  },
+  {
+    "id": 55,
+    "name": "Heat wave",
+    "parent": 53
+  },
+  {
+    "id": 56,
+    "name": "Severe winter conditions",
+    "parent": 53
+  },
+  {
+    "id": 57,
+    "name": "Storm",
+    "parent": 52
+  },
+  {
+    "id": 58,
+    "name": "Blizzard/Winter storm",
+    "parent": 57
+  },
+  {
+    "id": 59,
+    "name": "Derecho",
+    "parent": 57
+  },
+  {
+    "id": 60,
+    "name": "Extra-tropical storm",
+    "parent": 57
+  },
+  {
+    "id": 61,
+    "name": "Hail",
+    "parent": 57
+  },
+  {
+    "id": 62,
+    "name": "Lightning/Thunderstorms",
+    "parent": 57
+  },
+  {
+    "id": 63,
+    "name": "Sand/Dust storm",
+    "parent": 57
+  },
+  {
+    "id": 64,
+    "name": "Severe weather",
+    "parent": 57
+  },
+  {
+    "id": 65,
+    "name": "Storm (General)",
+    "parent": 57
+  },
+  {
+    "id": 66,
+    "name": "Storm surge",
+    "parent": 57
+  },
+  {
+    "id": 67,
+    "name": "Tornado",
+    "parent": 57
+  },
+  {
+    "id": 68,
+    "name": "Tropical cyclone",
+    "parent": 57
+  },
+  {
+    "id": 69,
+    "name": "Technological",
+    "parent": 1
+  },
+  {
+    "id": 70,
+    "name": "Industrial accident",
+    "parent": 69
+  },
+  {
+    "id": 71,
+    "name": "Chemical spill",
+    "parent": 70
+  },
+  {
+    "id": 72,
+    "name": "Chemical spill",
+    "parent": 71
+  },
+  {
+    "id": 73,
+    "name": "Collapse (Industrial)",
+    "parent": 70
+  },
+  {
+    "id": 74,
+    "name": "Collapse (Industrial)",
+    "parent": 73
+  },
+  {
+    "id": 75,
+    "name": "Explosion (Industrial)",
+    "parent": 70
+  },
+  {
+    "id": 76,
+    "name": "Explosion (Industrial)",
+    "parent": 75
+  },
+  {
+    "id": 77,
+    "name": "Fire (Industrial)",
+    "parent": 70
+  },
+  {
+    "id": 78,
+    "name": "Fire (Industrial)",
+    "parent": 77
+  },
+  {
+    "id": 79,
+    "name": "Gas leak",
+    "parent": 70
+  },
+  {
+    "id": 80,
+    "name": "Gas leak",
+    "parent": 79
+  },
+  {
+    "id": 81,
+    "name": "Industrial accident (General)",
+    "parent": 70
+  },
+  {
+    "id": 82,
+    "name": "Industrial accident (General)",
+    "parent": 81
+  },
+  {
+    "id": 83,
+    "name": "Oil spill",
+    "parent": 70
+  },
+  {
+    "id": 84,
+    "name": "Oil spill",
+    "parent": 83
+  },
+  {
+    "id": 85,
+    "name": "Poisoning",
+    "parent": 70
+  },
+  {
+    "id": 86,
+    "name": "Poisoning",
+    "parent": 85
+  },
+  {
+    "id": 87,
+    "name": "Radiation",
+    "parent": 70
+  },
+  {
+    "id": 88,
+    "name": "Radiation",
+    "parent": 87
+  },
+  {
+    "id": 89,
+    "name": "Miscellaneous accident",
+    "parent": 69
+  },
+  {
+    "id": 90,
+    "name": "Collapse (Miscellaneous)",
+    "parent": 89
+  },
+  {
+    "id": 91,
+    "name": "Collapse (Miscellaneous)",
+    "parent": 90
+  },
+  {
+    "id": 92,
+    "name": "Explosion (Miscellaneous)",
+    "parent": 89
+  },
+  {
+    "id": 93,
+    "name": "Explosion (Miscellaneous)",
+    "parent": 92
+  },
+  {
+    "id": 94,
+    "name": "Fire (Miscellaneous)",
+    "parent": 89
+  },
+  {
+    "id": 95,
+    "name": "Fire (Miscellaneous)",
+    "parent": 94
+  },
+  {
+    "id": 96,
+    "name": "Miscellaneous accident (General)",
+    "parent": 89
+  },
+  {
+    "id": 97,
+    "name": "Miscellaneous accident (General)",
+    "parent": 96
+  },
+  {
+    "id": 98,
+    "name": "Transport",
+    "parent": 69
+  },
+  {
+    "id": 99,
+    "name": "Air",
+    "parent": 98
+  },
+  {
+    "id": 100,
+    "name": "Air",
+    "parent": 99
+  },
+  {
+    "id": 101,
+    "name": "Rail",
+    "parent": 98
+  },
+  {
+    "id": 102,
+    "name": "Rail",
+    "parent": 101
+  },
+  {
+    "id": 103,
+    "name": "Road",
+    "parent": 98
+  },
+  {
+    "id": 104,
+    "name": "Road",
+    "parent": 103
+  },
+  {
+    "id": 105,
+    "name": "Water",
+    "parent": 98
+  },
+  {
+    "id": 106,
+    "name": "Water",
+    "parent": 105
+  }
+]

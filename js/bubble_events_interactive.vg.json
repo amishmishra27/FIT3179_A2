@@ -1,0 +1,131 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Natural Disaster Events by Category",
+  "padding": {"left": 0, "right": 0, "top": 0, "bottom": 0},
+  "data": {
+    "url": "https://raw.githubusercontent.com/amishmishra27/FIT3179_A2/refs/heads/main/data/bubble_plot.csv"
+  },
+  "width": 700,
+  "height": 700,
+  "params": [
+    {"name": "view", "select": "interval", "bind": "scales"},
+    {
+      "name": "cat_highlight",
+      "select": {
+        "type": "point",
+        "fields": ["Category"]
+      },
+      "bind": "legend"
+    },
+    {
+      "name": "Cat_Selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Fire",
+          "Cyclone",
+          "Earthquake",
+          "Flood",
+          "Storm",
+          "Transport"
+        ],
+        "labels": [
+          "Show All",
+          "Fire",
+          "Cyclone",
+          "Earthquake",
+          "Flood",
+          "Storm",
+          "Transport"
+        ],
+        "name": "Disaster Category Selection: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "calculate": "datum.Fatalities == 0 ? 0.1: datum.Fatalities",
+      "as": "Fatalities_log"
+    },
+    {"filter": "Cat_Selection == null || datum.Category == Cat_Selection"}
+  ],
+  "encoding": {
+    "x": {
+      "field": "Injured",
+      "type": "quantitative",
+      "title": "Injuries",
+      "axis": {"values": [0.1,1, 10, 100, 1000, 10000]},
+      "scale": {"type": "log", "domain": [0.1,10000]}
+    },
+    "y": {
+      "field": "Fatalities_log",
+      "type": "quantitative",
+      "title": "Deaths",
+      "axis": {"values": [0.1, 1, 10, 100, 1000]},
+      "scale": {
+        "type": "log",
+        "domain": [0.1,1000]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "size": 150,
+        "stroke": "black",
+        "strokeWidth": 1.5,
+        "strokeOpacity": 0.6
+      },
+      "encoding": {
+        "color": {
+          "field": "Category",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Fire",
+              "Cyclone",
+              "Earthquake",
+              "Flood",
+              "Storm",
+              "Transport"
+            ],
+            "range": [
+              "#f26900",
+              "#707070",
+              "#947352",
+              "#023DA7",
+              "#79b2d4",
+              "#b8b8b8"
+            ]
+          }
+        },
+        "size": {
+          "field": "Insured_Cost",
+          "type": "quantitative",
+          "title": "Cost of Damage",
+          "scale": {
+            "domain": [0, 5000, 10000, 20000, 50000, 100000, 200000],
+            "range": [50,200,300,400,800,1200]
+          }
+        },
+        "tooltip" : [
+          {"field": "Event", "type": "nominal"},
+          {"field": "Region", "type": "nominal"},
+          {"field": "Injured", "type": "quantitative", "title": "Injuries"},
+          {"field": "Fatalities", "type": "quantitative", "title": "Deaths"},
+          {"field": "Insured_Cost", "type": "quantitative", "title": "Damages Cost ($)"}
+
+        ],
+        "opacity": {
+          "condition": {
+            "param": "cat_highlight",
+            "value": 0.89
+          },
+          "value": 0.1
+        }
+      }
+    }
+  ]
+}

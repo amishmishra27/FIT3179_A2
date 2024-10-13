@@ -1,0 +1,73 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Rankings of Disaster Event Frequency by Decade",
+  "description": "Bump chart",
+  "height": 700,
+  "width": 700,
+  "params": [
+    {
+      "name": "category_highlight",
+      "select": {
+        "type": "point",
+        "fields": ["Category"]
+      },
+      "bind": "legend"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Year", 
+      "type": "ordinal",
+      "axis": {
+        "title": "Decade",
+        "labelAngle": 360
+      }
+    },
+    "y": {
+      "field": "Rank",
+      "type": "ordinal",
+      "scale": {"domain": [1, 2, 3, 4, 5], "range": [0, 700]}
+    },
+    "color": {
+      "field": "Category",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Fire",
+          "Cyclone",
+          "Earthquake",
+          "Flood",
+          "Storm",
+          "Transport"
+        ],
+        "range": [
+          "#f26900",
+          "#707070",
+          "#947352",
+          "#023DA7",
+          "#79b2d4",
+          "#b8b8b8"
+        ]
+      }
+    },
+    "tooltip": [
+      {"field": "Category", "type": "nominal"},
+      {"field": "Year", "type": "ordinal", "title": "Decade"},
+      {"field": "Rank", "type": "ordinal"},
+      {"field": "freq", "type": "quantitative", "title": "Frequency"}
+    ],
+    "opacity": {
+      "condition": {
+        "param": "category_highlight",
+        "value": 0.9
+      },
+      "value": 0.15
+    }
+  },
+  "mark": {"type": "line", "interpolate": "linear","size": 5, "point": true, "point": {"size": 200}},
+  "transform": [
+    {"calculate": "toNumber(datum.Year)", "as": "Year"},
+    {"calculate": "toNumber(datum.Rank)", "as": "Rank"}
+  ],
+  "data": {"url": "../data/ranking.csv"}
+}
