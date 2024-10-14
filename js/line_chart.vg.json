@@ -1,0 +1,114 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "../data/line_chart.csv"
+  },
+  "transform": [
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "total_count",
+          "as": "summed_count"
+        }
+      ],
+      "groupby": ["decade", "state"]
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "line", "interpolate": "linear", "point": true},
+      "encoding": {
+        "x": {
+          "field": "decade", "type": "temporal", "title": "Decade"
+        },
+        "y": {
+          "field": "summed_count", "type": "quantitative", "title": "Disasters"
+        },
+        "color": {
+          "field": "state",
+          "legend": null,
+          "type": "nominal",
+          "condition": [
+            {
+              "test": "datum.state === 'New South Wales'",
+              "value": "red"
+            },
+            {
+              "test": "datum.state !== 'New South Wales'",
+              "value": "lightgrey"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "summed_count", "order": "descending"}]
+        },
+        {
+          "filter": "datum.ranking == 1"
+        },
+        {
+          "calculate": "'The most Disasters encountered in a decade; was ' + datum['summed_count'] + ' by New South Wales'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "top",
+        "dx": 250,
+        "dy": -280,
+        "fontSize": 11.5,
+        "fontStyle": "italic", 
+        "fontWeight": "bold"
+
+      },
+      "encoding": {
+        "text": {"field": "text_annotation"}
+      }
+    },
+    {
+      "transform": [
+        {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "summed_count", "order": "descending"}]
+        },
+        {
+          "filter": "datum.ranking == 3"
+        },
+        {
+          "calculate": "'Rapid influx of Natural Disasters in the 90s; as parts of Australia hit with many storms and floods'",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw,';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "top",
+        "dx": 180,
+        "dy": -20,
+        "fontSize": 11.5,
+        "fontStyle": "italic", 
+        "fontWeight": "bold"
+
+      },
+      "encoding": {
+        "text": {"field": "text_annotation"}
+      }
+    }
+  ]
+}
