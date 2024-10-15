@@ -3,12 +3,12 @@
   "data": {
     "url": "https://raw.githubusercontent.com/amishmishra27/FIT3179_A2/refs/heads/main/data/disaster_cost2.csv"
   },
-  "padding": { "left": 0, "right": 0, "top": 0, "bottom": 0},
 
   "vconcat": [
     {
-      "width": 500,
-      "height": 450,
+      "title": "Geographic Distribution and Impact of Natural Disasters",
+      "width": 736,
+      "height": 500,
       "projection": {"type": "mercator"},
       "layer": [
         {
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "width": 500,
+      "width": 736,
       "height": 80,
       "mark": "line",
       "title": "Use this line chart to filter Disasters based on time-period",

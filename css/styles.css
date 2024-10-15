@@ -1,67 +1,77 @@
-body *{
-    font-family: 'Open Sans', sans-serif;
+.page-container {
+    max-width: 1200px; /* Set the maximum width of the page */
+    margin: 0 auto;    /* Center the container on the page */
+    padding: 0 20px;   /* Add some horizontal padding */
 }
 
-h1 {
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header, .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
 }
 
-h1, h2 {
-    font-weight: 900;
-    font-size: 29px;
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-
-h3 {
-    font-weight: 600;
-}
-p {
-    font-size: 15px;
-}
-
-
-body {
-    background-color: lightgray;
-}
-
-.page {
-    box-sizing: border-box; /* Ensures padding is included in the height */
-    width: 1050px;
-    height: 2430px;
+.card {
     background-color: white;
-    margin: auto;
-    padding: 50px;
-    padding-top: 15px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+
+.visualization {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.text {
+    margin: 10px 0;
+}
+
+#vis1 {
+    width: 80%;
     
 }
 
-.pure-u-1-1 .vis-container {
-    width: 100%;
-    height: 600px;
-    margin-left: 0; /* Ensure no unintended margin */
-    padding-left: 0;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
+#vis4 {
+    width: 80.5%;
+    margin-left: -46px;
 }
 
-.description h2 {
-    margin-top: 0px;
+
+#vis5 {
+    width: 80.5%;
+    margin-left: 10px;
+    text-align: left;
 }
 
-.description-right {
-    padding-left: 20px;
+#vis6 {
+    width: 72.5%;
+    text-align: center;
 }
 
-.description-left {
-    padding-right: 20px;
-}
 
-.pure-g {
-    margin-bottom: 30px;
-}
 
-.small-font {
-    font-size: 14px;
-}

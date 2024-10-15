@@ -5,8 +5,9 @@
   "data": {
     "url": "https://raw.githubusercontent.com/amishmishra27/FIT3179_A2/refs/heads/main/data/bubble_plot.csv"
   },
-  "width": 700,
-  "height": 700,
+  "autosize": "fit",
+  "width": "container",
+  "height": 500,
   "params": [
     {"name": "view", "select": "interval", "bind": "scales"},
     {
@@ -39,7 +40,7 @@
           "Storm",
           "Transport"
         ],
-        "name": "Disaster Category Selection: "
+        "name": "Filter by Disaster Category: "
       }
     }
   ],
