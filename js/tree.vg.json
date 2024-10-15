@@ -30,7 +30,7 @@
   "data": [
     {
       "name": "tree",
-      "url": "../data/hierarchy.json",
+      "url": "https://raw.githubusercontent.com/amishmishra27/FIT3179_A2/refs/heads/main/data/hierarchy.json",
       "transform": [
         {
           "type": "stratify",

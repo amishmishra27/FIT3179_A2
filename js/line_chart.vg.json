@@ -4,7 +4,7 @@
   "width": "container",
   "height": 500,
   "data": {
-    "url": "../data/line_chart.csv"
+    "url": "https://raw.githubusercontent.com/amishmishra27/FIT3179_A2/refs/heads/main/data/line_chart.csv"
   },
   "transform": [
     {

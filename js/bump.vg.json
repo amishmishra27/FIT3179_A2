@@ -69,5 +69,5 @@
     {"calculate": "toNumber(datum.Year)", "as": "Year"},
     {"calculate": "toNumber(datum.Rank)", "as": "Rank"}
   ],
-  "data": {"url": "../data/ranking.csv"}
+  "data": {"url": "https://raw.githubusercontent.com/amishmishra27/FIT3179_A2/refs/heads/main/data/ranking.csv"}
 }
