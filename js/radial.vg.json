@@ -136,7 +136,7 @@
                 "signal": "datum.category === 0 ? '0.1' : '0.2'"
               },
               "strokeOpacity": {
-                "signal": "datum.category === 0 ? '1' : '0.25'"
+                "signal": "datum.category === 0 ? '1' : '0.28'"
               }
             }
           }
