@@ -66,6 +66,7 @@
   },
   "mark": {"type": "line", "interpolate": "linear","size": 5, "point": true, "point": {"size": 200}},
   "transform": [
+    {"filter": "datum.Year >=1950"},
     {"calculate": "toNumber(datum.Year)", "as": "Year"},
     {"calculate": "toNumber(datum.Rank)", "as": "Rank"}
   ],
