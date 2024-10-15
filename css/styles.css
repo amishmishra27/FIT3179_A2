@@ -4,6 +4,24 @@
     padding: 0 20px;   /* Add some horizontal padding */
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; /* Slightly bold for subheadings */
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Normal weight for paragraphs */
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
