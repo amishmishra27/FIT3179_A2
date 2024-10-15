@@ -116,7 +116,7 @@
           {"field": "Region", "type": "nominal"},
           {"field": "Injured", "type": "quantitative", "title": "Injuries"},
           {"field": "Fatalities", "type": "quantitative", "title": "Deaths"},
-          {"field": "Insured_Cost", "type": "quantitative", "title": "Damages Cost ($)"}
+          {"field": "Insured_Cost", "type": "quantitative", "title": "Damages Cost ($)",   "format": ",.0f"}
 
         ],
         "opacity": {
